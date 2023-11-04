@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap');
+
+* {
+    font-family: Cormorant, serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+body {
+    padding: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Header */
+
+header {
+    margin: 20px;
+}
+
+header nav {
+    display: inline-block;
+    font-size: 22px;
+}
+
+header nav ul,
+li {
+    margin: 5px;
+    display: inline;
+    list-style-type: none;
+}
+
+header nav a {
+    font-weight: bolder;
+}
+
+#current-page {
+    padding: 0px;
+    border-bottom-style: solid;
+    border-width: 2px;
+}
+
+#logo {
+    display: inline;
+}
+
+/* Main */
+
+main {
+    margin-top: 70px;
+}
+
+main .portfolio-item {
+    display: inline-block;
+    width: 48%;
+    height: 672px;
+    margin: 20px;
+    margin-bottom: 70px;
+}
+
+main .portfolio-item img {
+    width: 100%;
+    height: 100%;
+}
+
+main .portfolio-item img:hover {
+    opacity: 85%;
+}
+
+main .portfolio-item h1 {
+    margin: 0;
+    margin-top: 3px;
+}
+
+/*Footer*/
+
+footer {
+    width: 30%;
+    margin-left: 7%;
+    margin-bottom: 2%;
+}
+
+footer #mission-statement {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+footer address {
+    font-style: normal;
+}
+
+footer address h1 {
+    display: inline-block;
+    margin-top: 0%;
+    margin-bottom: 17%;
+    padding-bottom: 8px;
+    border-bottom-style: solid;
+    border-width: 2px;
+    font-size: 42px;
+}
+
+footer address a {
+    margin: 0%;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: text;
+}
